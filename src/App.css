@@ -1,5 +1,21 @@
-* {
+
+body {
 	margin: 0;
 	padding: 0;
+	display: block;
+}
+.bgi {
+	background-image: url(./img/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+.App {
 	box-sizing: border-box;
+}
+.contentBox {
+	padding: 4em 0;
 }

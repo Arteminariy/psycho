@@ -1,6 +1,6 @@
 import './AvatarCard.module.css';
 import { useTheme} from '@mui/material/styles';
-import { Card, Box, CardContent, Typography, IconButton, CardMedia } from '@mui/material';
+import { Card, Box, CardContent, Typography, CardMedia } from '@mui/material';
 
 interface AvatarCardProps {
 	avatarPic: string,
@@ -9,14 +9,12 @@ interface AvatarCardProps {
 }
 
 const AvatarCard = ({ avatarPic, name, profession }: AvatarCardProps) => {
-	const theme = useTheme();
-
 	return (
 		<div className='avatarCard'>
-			<Card sx={{ display: 'flex', flexDirection: 'row', mt: 8 }}>
+			<Card sx={{ display: 'flex', flexDirection: 'row'}}>
 				<CardMedia
 					component="img"
-					sx={{ width: 200, height: 200 }}
+					sx={{ width: 300}}
 					image={avatarPic}
 					alt="Live from space album cover"
 				/>

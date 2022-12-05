@@ -11,19 +11,19 @@ interface AvatarCardProps {
 const AvatarCard = ({ avatarPic, name, profession }: AvatarCardProps) => {
 	return (
 		<div className='avatarCard'>
-			<Card sx={{ display: 'flex', flexDirection: 'row'}}>
+			<Card sx={{ display: 'flex', flexDirection: 'column'}}>
 				<CardMedia
 					component="img"
-					sx={{ width: 300}}
+					sx={{ width: '100%'}}
 					image={avatarPic}
 					alt="Live from space album cover"
 				/>
 				<Box>
 					<CardContent sx={{ flex: '1 0 auto' }}>
-						<Typography component="div" variant="h5">
+						<Typography sx={{fontWeight: 900}} component="div" variant="h5">
 							{name}
 						</Typography>
-						<Typography variant="subtitle1" color="secondary" component="div">
+						<Typography sx={{fontWeight: 900}} variant="h6" color="secondary" component="div">
 							{profession}
 						</Typography>
 					</CardContent>

@@ -21,8 +21,8 @@ const App = () => {
 						profession='Психолог'
 					/>
 					<Card sx={{ mt: 8, p: 4 }}>
-						<Typography variant="subtitle1" component="p">
-							Закончила МГУ им. М.В. Ломоносова — факультет психологии.
+						<Typography variant="subtitle2" component="p">
+							Закончила МГУ им. М.В. Ломоносова, факультет психологии.
 							<br />
 							Опыт работы психологом более 30 лет
 						</Typography>

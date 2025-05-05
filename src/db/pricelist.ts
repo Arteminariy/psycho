@@ -1,7 +1,7 @@
-interface pricelist {
+interface PriceList {
     price: number
 }
 
-export const list_1: pricelist = {
-    price: 3000
+export const list_1: PriceList = {
+    price: 3500
 }

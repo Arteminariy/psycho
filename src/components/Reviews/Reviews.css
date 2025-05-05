@@ -1,0 +1,20 @@
+.reviewsContainer {
+	box-sizing: border-box;
+	max-width: 1200px;
+	padding: 2em;
+	margin: 0 auto;
+}
+
+@media (400px < width < 1200px)  {
+	.reviewsContainer {
+		max-width: 400px;
+		margin: 0 auto;
+	}
+}
+
+@media (width < 400px) {
+	.reviewsContainer {
+		max-width: 400px;
+		margin: 2em auto 0;
+	}
+}

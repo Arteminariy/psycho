@@ -3,5 +3,5 @@ interface PriceList {
 }
 
 export const list_1: PriceList = {
-    price: 3500
+    price: 5000
 }
